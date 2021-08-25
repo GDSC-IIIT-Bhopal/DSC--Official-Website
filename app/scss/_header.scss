@@ -1,7 +1,10 @@
 .header {
-  nav {
-    padding: 1.0635rem 1.5rem;
-  }
+ nav{
+   padding-top:1.0625rem;
+   padding-bottom:1.0625rem;
+   position:relative;
+   background-color:white;
+ }
   h3,
   span {
     color: #6e7072;
@@ -22,12 +25,12 @@
   .overlay {
     position: fixed;
     opacity: 0;
-    top: 4.75rem;
+    top: 0;
     right: 0px;
     bottom: 0px;
     left: 0px;
     background-color: $darkBlue;
-    background-image: linear-gradient(#FFE3E3, transparent);
+    background-image: linear-gradient( #170055,#FFE3E3);
     &.fade-in {
       display: block;
     }
@@ -49,6 +52,20 @@
       &:not(:last-child) {
         margin-bottom: 5px;
       }
+    }
+  }
+  &__menu{
+    background:white;
+    margin:3px 1.5rem;
+    padding:1.635rem;
+    border-radius: 5px;
+    position:absolute;
+    width:90%;
+    a{
+      color:$darkBlue;
+      padding:0.625rem;
+      display:block;
+      text-align:center;
     }
   }
   &__links {
