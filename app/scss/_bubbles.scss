@@ -17,6 +17,7 @@ body {
   opacity: 0.17;
   background: $bubbles;
   animation: rise 6s ease-in infinite;
+  z-index:5;
 }
 
 @keyframes rise {

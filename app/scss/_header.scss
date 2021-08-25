@@ -30,6 +30,7 @@
     bottom: 0px;
     left: 0px;
     background-color: $darkBlue;
+    // z-index:3;
     background-image: linear-gradient( #170055,#FFE3E3);
     &.fade-in {
       display: block;
@@ -61,6 +62,7 @@
     border-radius: 5px;
     position:absolute;
     width:90%;
+    z-index:5;
     a{
       color:$darkBlue;
       padding:0.625rem;

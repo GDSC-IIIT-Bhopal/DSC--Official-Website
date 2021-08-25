@@ -15,7 +15,7 @@ $third-color: #46a7dc;
   overflow: hidden;
   // background-image: linear-gradient(135deg, $primary-color 0%, $secondary-color 50%, $third-color 100%);
 
-  // background-image: url(/images/wave.png);
+  background-image: url(/images/jamming2.png);
   .inner-container {
     width: 90%;
     margin: 0 auto;
@@ -30,6 +30,7 @@ $third-color: #46a7dc;
 
 .random-shape:after {
   font-family: FontAwesome;
+  opacity:0.54;
   content: "\f04d";
 }
 

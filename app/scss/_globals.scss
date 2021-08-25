@@ -2,6 +2,7 @@
 html {
   font-size: 100%;
   box-sizing: border-box;
+  
 }
 
 *,
@@ -52,13 +53,14 @@ a:hover {
 
 button,
 .button {
-  padding: 0.875rem 2.1875rem;
-  border-radius: 50px;
-  cursor: pointer;
-  color: white;
-  background: linear-gradient(to right, $red, #db4437);
-  border: 0;
-  font-weight: 700;
+  padding: 0.275rem 1.1875rem;
+border-radius: 50px;
+cursor: pointer;
+color: white;
+background: -webkit-gradient(linear, left top, right top, from(#f44336), to(#db4437));
+background: linear-gradient(to right, #71ade2, #7dc9e0);
+border: 0;
+font-weight: 700;
   &:hover{
     opacity:0.90;
   }

@@ -1,0 +1,35 @@
+.group{
+    @include breakpoint-up(large){
+        display:flex;
+
+    }
+
+    &__image{
+        position:relative;
+        // background-image:url('/images/gridbackground.jpg');
+        // background-size:cover;
+        // background-repeat:no-repeat;
+        // background-position:center center;
+        // min-height: 40.5rem;
+        // z-index:-3;
+        &::before{
+            content:"";
+            position:absolute;
+            height:100%;
+            background-image:url('/images/gridbackground.jpg');
+            background-size:cover;
+            background-repeat:no-repeat;
+            background-position:center center;
+        }
+    }
+    &__text{
+        h1{
+            font-weight: 700;
+            line-height: 1.15;
+            color:$darkBlue;
+        }
+        p{
+          line-height:1.5;  
+        }
+    }
+}
