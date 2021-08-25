@@ -1,0 +1,29 @@
+$background: #00356b;
+$bubbles: lighten($background, 10%);
+$border: darken($background, 2%);
+
+body {
+  overflow-x: hidden;
+  background: white;
+}
+
+.bubbles{
+  display: block;
+  position: absolute;
+  height: 10px;
+  width: 10px;
+  border-radius: 50%;
+  border: 1px solid $border;
+  opacity: 0.17;
+  background: $bubbles;
+  animation: rise 6s ease-in infinite;
+}
+
+@keyframes rise {
+  from {
+    bottom: -15%;
+  }
+  to {
+    bottom: 120%;
+  }
+}
