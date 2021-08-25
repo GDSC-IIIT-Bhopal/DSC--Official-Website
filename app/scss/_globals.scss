@@ -17,8 +17,7 @@ body {
   font-size: $font-med;
   font-weight: 500;
   color: $grayishBlue;
-  font-family: "Roboto", sans-serif;
-  &.noscroll{
+  font-family: 'Nunito', sans-serif;  &.noscroll{
     overflow: hidden;
   }
 }
