@@ -1,1 +1,1 @@
-# DSC--Official-Website
+# DSC IIIT Bhopal Official Website
